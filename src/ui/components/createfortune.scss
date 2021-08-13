@@ -1,0 +1,13 @@
+.create-fortune {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+    button {
+        margin-top: 1rem;
+        background-color: #27807c;
+        color: white;
+        padding: 0.7rem;
+        border: none;
+    }
+}

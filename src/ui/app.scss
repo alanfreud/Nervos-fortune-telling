@@ -1,0 +1,42 @@
+body {
+    padding: 20px;
+    background-color: #fffdda;
+}
+
+.rotating-icon {
+    display: inline-block;
+    animation: spin 1s infinite linear;
+}
+
+button {
+    &:hover {
+        cursor: pointer;
+    }
+}
+.root {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h1 {
+        margin-bottom: 1rem !important;
+        color: #27807c;
+    }
+    hr {
+        border-color: #27807c;
+        width: 50vw;
+    }
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes twist-up {
+    to {
+        transform: rotateX(360deg);
+    }
+}
